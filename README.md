@@ -1,45 +1,93 @@
-# Olá, eu sou o João Pedro 👋
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,55:7A0019,100:FF3355&height=170&section=header&text=Jo%C3%A3o%20Pedro%20Ribeiro&fontSize=40&fontColor=FFFFFF&fontAlignY=42&desc=Defesa%20Cibern%C3%A9tica%20%C2%B7%20AppSec%20%C2%B7%20Python&descSize=17&descColor=FFD6DC&descAlignY=68&animation=fadeIn" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=19&pause=1400&color=FF3355&center=true&vCenter=true&width=560&lines=Explorar+a+falha.+Escrever+a+corre%C3%A7%C3%A3o.;Defesa+Cibern%C3%A9tica+%40+FIAP;Python+%E2%80%A2+AppSec+%E2%80%A2+An%C3%A1lise+de+logs;Procurando+est%C3%A1gio+em+seguran%C3%A7a" alt="Explorar a falha. Escrever a correção." />
+
+<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-s-ribeiro-2ba201304"><img src="https://img.shields.io/badge/LinkedIn-7A0019?style=for-the-badge" /></a> <a href="mailto:joaopedrosribeiro08@gmail.com"><img src="https://img.shields.io/badge/E--mail-7A0019?style=for-the-badge&logo=gmail&logoColor=white" /></a> <img src="https://img.shields.io/badge/%E2%97%8F_Aberto_a_est%C3%A1gio-FF3355?style=for-the-badge" />
+
+</div>
+
+<br>
+
+## `[01]` quem sou
 
 Estudante de **Defesa Cibernética na FIAP**, buscando **estágio em segurança da informação** (SOC, AppSec ou análise de vulnerabilidades).
 
-Gosto de entender como um ataque funciona por dentro e depois escrever o código que o impede. Meu foco hoje é **segurança de aplicações web**, **análise de logs** e **automação com Python**.
+Gosto de entender como um ataque funciona por dentro e depois escrever o código que o impede. Hoje estudo principalmente **segurança de aplicações web**, **análise de logs** e **automação com Python**.
 
----
+<br>
 
-### 🔐 Projetos em destaque
+## `[02]` ataque × defesa
 
-**[App vulnerável × app seguro](https://github.com/jpepe160807/cp2-coding-for-security/tree/main/ex10)** · Python, Flask, MySQL
-Uma aplicação Flask com 8 falhas do OWASP Top 10 (SQL injection, XSS, falta de controle de acesso, segredo no código...), um script de exploit que ataca essas falhas, uma [auditoria](https://github.com/jpepe160807/cp2-coding-for-security/blob/main/ex10/auditoria.md) que classifica cada uma e a versão corrigida, contra a qual o mesmo exploit falha.
+<table>
+<tr>
+<th width="50%">⚔️ O que eu exploro</th>
+<th width="50%">🛡️ Como eu corrijo</th>
+</tr>
+<tr>
+<td>SQL injection numa busca com query concatenada</td>
+<td>Query parametrizada</td>
+</tr>
+<tr>
+<td>XSS refletido numa página de perfil</td>
+<td>Escape da entrada e headers de segurança (CSP)</td>
+</tr>
+<tr>
+<td>Rota de DELETE sem autenticação</td>
+<td>Chave de API obrigatória, 401/403 e rate limiting</td>
+</tr>
+<tr>
+<td>Prompt injection escondida dentro de um log</td>
+<td>Delimitadores, resposta em formato rígido e regras como piso</td>
+</tr>
+<tr>
+<td>Arquivo <code>.pkl</code> adulterado que executa código ao abrir</td>
+<td>Conferir o SHA-256 antes de carregar (OWASP A08)</td>
+</tr>
+</table>
 
-**[Classificador de logs resistente a prompt injection](https://github.com/jpepe160807/cp3-coding-for-security)** · Python, LLM
-Classifica eventos de `auth.log` e logs de acesso web como NORMAL, SUSPEITO ou CRÍTICO usando um LLM. Mostra um classificador ingênuo sendo enganado por uma injeção escondida no log e a versão protegida: delimitadores, resposta em formato rígido, regras como piso de severidade e fallback quando o modelo falha.
+<br>
 
-**[Ferramentas de threat intel](https://github.com/jpepe160807/cp3-coding-for-security)** · Python, APIs REST
-Consulta de CVEs na API do NVD (CVSS e severidade) e enriquecimento de IPs com cache e backoff em limite de requisições. Também verifica o SHA-256 de um modelo de ML antes de carregá-lo, porque abrir um `.pkl` já executa código (OWASP A08).
+## `[03]` projetos
 
----
+### 🧨 [App vulnerável × app seguro](https://github.com/jpepe160807/cp2-coding-for-security/tree/main/ex10)
+![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
+![Flask](https://img.shields.io/badge/Flask-1a1f27?style=flat-square&logo=flask&logoColor=FF3355)
+![MySQL](https://img.shields.io/badge/MySQL-1a1f27?style=flat-square&logo=mysql&logoColor=FF3355)
 
-### 🛠️ Tecnologias
+Aplicação Flask com 8 falhas do OWASP Top 10, um script de exploit que ataca cada uma, uma [auditoria](https://github.com/jpepe160807/cp2-coding-for-security/blob/main/ex10/auditoria.md) com impacto e correção e a versão endurecida, contra a qual o mesmo exploit falha.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+### 🧠 [Classificador de logs à prova de prompt injection](https://github.com/jpepe160807/cp3-coding-for-security)
+![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
+![LLM](https://img.shields.io/badge/LLM-1a1f27?style=flat-square&logo=openai&logoColor=FF3355)
 
-**Segurança:** OWASP Top 10 · análise de logs · SQL injection e XSS (ataque e correção) · controle de acesso e rate limiting · prompt injection
+Classifica eventos de `auth.log` e logs web como NORMAL, SUSPEITO ou CRÍTICO. Mostra um classificador ingênuo sendo enganado por uma ordem escondida no log e a versão protegida, que não deixa o modelo rebaixar o que as regras já marcaram como grave.
 
----
+### 🛰️ [Ferramentas de threat intel](https://github.com/jpepe160807/cp3-coding-for-security)
+![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
+![REST](https://img.shields.io/badge/APIs_REST-1a1f27?style=flat-square&logo=fastapi&logoColor=FF3355)
 
-### 🇺🇸 In English
+Consulta de CVEs na API do NVD (CVSS e severidade) e enriquecimento de IPs com cache e backoff quando a API limita as requisições.
 
-Cyber Defense student at FIAP (Brazil), looking for an **information security internship**. I work mostly with Python, building and breaking web apps (OWASP Top 10), analyzing logs and automating security tasks. The projects above include a vulnerable vs. hardened Flask app with its exploit and audit, and an LLM-based log classifier hardened against prompt injection.
+<br>
 
----
+## `[04]` stack
 
-### 📫 Contato
+<div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-s-ribeiro-2ba201304)
-[![E-mail](https://img.shields.io/badge/E--mail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joaopedrosribeiro08@gmail.com)
+<img src="https://skillicons.dev/icons?i=py,flask,mysql,mongodb,docker,linux,git&theme=dark&perline=7" />
+
+</div>
+
+<br>
+
+## `[05]` in english
+
+Cyber Defense student at FIAP (Brazil), looking for an **information security internship**. I build and break web apps (OWASP Top 10), analyze logs and automate security tasks in Python. Highlights: a vulnerable vs. hardened Flask app with its exploit and audit, and an LLM log classifier hardened against prompt injection.
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:FF3355,45:7A0019,100:0D1117&height=110&section=footer&reversal=true&rotate=6" width="100%"/>
+
+</div>

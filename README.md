@@ -51,20 +51,20 @@ Gosto de entender como um ataque funciona por dentro e depois escrever o código
 
 ## `[03]` projetos
 
-### 🧨 [App vulnerável × app seguro](https://github.com/jpepe160807/cp2-coding-for-security/tree/main/ex10)
+### 🧨 [App vulnerável × app seguro](https://github.com/jpepe160807/appsec-flask-owasp/tree/main/ex10)
 ![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
 ![Flask](https://img.shields.io/badge/Flask-1a1f27?style=flat-square&logo=flask&logoColor=FF3355)
 ![MySQL](https://img.shields.io/badge/MySQL-1a1f27?style=flat-square&logo=mysql&logoColor=FF3355)
 
-Aplicação Flask com 8 falhas do OWASP Top 10, um script de exploit que ataca cada uma, uma [auditoria](https://github.com/jpepe160807/cp2-coding-for-security/blob/main/ex10/auditoria.md) com impacto e correção e a versão endurecida, contra a qual o mesmo exploit falha.
+Aplicação Flask com 8 falhas do OWASP Top 10, um script de exploit que ataca cada uma, uma [auditoria](https://github.com/jpepe160807/appsec-flask-owasp/blob/main/ex10/auditoria.md) com impacto e correção e a versão endurecida, contra a qual o mesmo exploit falha.
 
-### 🧠 [Classificador de logs à prova de prompt injection](https://github.com/jpepe160807/cp3-coding-for-security)
+### 🧠 [Classificador de logs à prova de prompt injection](https://github.com/jpepe160807/security-automation-python)
 ![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
 ![LLM](https://img.shields.io/badge/LLM-1a1f27?style=flat-square&logo=openai&logoColor=FF3355)
 
 Classifica eventos de `auth.log` e logs web como NORMAL, SUSPEITO ou CRÍTICO. Mostra um classificador ingênuo sendo enganado por uma ordem escondida no log e a versão protegida, que não deixa o modelo rebaixar o que as regras já marcaram como grave.
 
-### 🛰️ [Ferramentas de threat intel](https://github.com/jpepe160807/cp3-coding-for-security)
+### 🛰️ [Ferramentas de threat intel](https://github.com/jpepe160807/security-automation-python)
 ![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
 ![REST](https://img.shields.io/badge/APIs_REST-1a1f27?style=flat-square&logo=fastapi&logoColor=FF3355)
 

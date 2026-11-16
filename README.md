@@ -51,6 +51,13 @@ Gosto de entender como um ataque funciona por dentro e depois escrever o código
 
 ## `[03]` projetos
 
+### 🚨 [Triagem de alertas SOC com IA](https://github.com/jpepe160807/soc-triagem-ia)
+![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
+![n8n](https://img.shields.io/badge/n8n-1a1f27?style=flat-square&logo=n8n&logoColor=FF3355)
+![Gemini](https://img.shields.io/badge/Gemini-1a1f27?style=flat-square&logo=googlegemini&logoColor=FF3355)
+
+Fluxo no n8n em que um agente de IA faz a triagem de alertas de força bruta em SSH: consulta a reputação do IP, define a severidade, indica a técnica do MITRE ATT&CK e avisa no Discord quando o caso é grave. Um detector em Python lê o `auth.log` e envia os alertas por webhook.
+
 ### 🧨 [App vulnerável × app seguro](https://github.com/jpepe160807/appsec-flask-owasp/tree/main/ex10)
 ![Python](https://img.shields.io/badge/Python-1a1f27?style=flat-square&logo=python&logoColor=FF3355)
 ![Flask](https://img.shields.io/badge/Flask-1a1f27?style=flat-square&logo=flask&logoColor=FF3355)
@@ -84,7 +91,7 @@ Consulta de CVEs na API do NVD (CVSS e severidade) e enriquecimento de IPs com c
 
 ## `[05]` in english
 
-Cyber Defense student at FIAP (Brazil), looking for an **information security internship**. I build and break web apps (OWASP Top 10), analyze logs and automate security tasks in Python. Highlights: a vulnerable vs. hardened Flask app with its exploit and audit, and an LLM log classifier hardened against prompt injection.
+Cyber Defense student at FIAP (Brazil), looking for an **information security internship**. I build and break web apps (OWASP Top 10), analyze logs and automate security tasks in Python. Highlights: an n8n workflow where an AI agent triages SOC alerts, a vulnerable vs. hardened Flask app with its exploit and audit, and an LLM log classifier hardened against prompt injection.
 
 <div align="center">
 
